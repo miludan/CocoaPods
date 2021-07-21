@@ -65,4 +65,6 @@ group :debugging do
   gem 'kicker'
   gem 'awesome_print'
   gem 'ruby-prof', :platforms => [:ruby]
+  gem 'debase', '0.2.4.1'
+  gem 'ruby-debug-ide', '0.4.24'
 end

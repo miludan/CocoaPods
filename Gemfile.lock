@@ -169,6 +169,9 @@ GEM
       no_proxy_fix
       octokit (~> 4.7)
       terminal-table (~> 1)
+    debase (0.2.4.1)
+      debase-ruby_core_source (>= 0.10.2)
+    debase-ruby_core_source (0.10.12)
     diffy (3.2.1)
     docile (1.1.5)
     escape (0.0.4)
@@ -250,6 +253,8 @@ GEM
       rainbow (>= 2.2.2, < 3.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-debug-ide (0.4.24)
+      rake (>= 0.8.1)
     ruby-graphviz (1.2.2)
     ruby-macho (2.5.1)
     ruby-prof (0.15.2)
@@ -303,6 +308,7 @@ DEPENDENCIES
   cocoapods-try!
   cocoapods_debug
   danger (~> 5.3)
+  debase (= 0.2.4.1)
   diffy
   inch_by_inch
   kicker
@@ -316,6 +322,7 @@ DEPENDENCIES
   rake (~> 10.0)
   rb-fsevent
   rubocop (= 0.50.0)
+  ruby-debug-ide (= 0.4.24)
   ruby-graphviz (< 1.2.5)
   ruby-prof
   simplecov (< 0.18)
